@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+.main{
+    height: 150px;
+    width: 200px;
+    border: 1px solid black;
+    box-shadow: 0 0 8px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+button{
+    background-color:#AA7FDE;
+    border:1px solid black;
+    height: 25px;
+    width: 100px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.otp{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
